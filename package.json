@@ -1,0 +1,36 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener for Nintex",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahjorgen167/url_shortener.git"
+  },
+  "author": "Hunter Jorgensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahjorgen167/url_shortener/issues"
+  },
+  "homepage": "https://github.com/ahjorgen167/url_shortener#readme",
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.3.0",
+    "angular-ui-router": "^0.3.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "q": "^1.4.1",
+    "valid-url": "^1.0.9"
+  }
+}
