@@ -1,16 +1,14 @@
 var express = require('express')
 var passport = require('passport');
 var cookieParser = require('cookie-parser');
-var session      = require('express-session');
+var session = require('express-session');
 var bodyParser = require('body-parser');
-
-
 var app = express()
 
-var csurf = require('csurf')
+//var csurf = require('csurf')
 
 
-app.use(cookieParser());
+//app.use(cookieParser());
 //app.use(session({ secret: "process.env.SESSION_SECRET" }));
 //app.use(csurf());
 
