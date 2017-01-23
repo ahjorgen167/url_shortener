@@ -15,7 +15,7 @@
             var newURL = {
                 decoded_url: url
             };
-            return $http.post("/api/shorten", newURL);
+            return $http.post("/api/shorten", url);
         }
 
         function getURLByShortURL(shortURL){

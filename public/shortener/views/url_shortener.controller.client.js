@@ -37,9 +37,13 @@
                 .getURLByShortURL(vm.short_url)
                 .then(
                     function(response){
-                        var url = response.data;
-                        console.log(url.decoded_url);
-                        $window.location = url.decoded_url;
+                        if(!response.data.decoded_url){
+                            $location.url('/error');
+                        } else {
+                            var url = response.data;
+                            vm.decoded_url = url.decoded_url;
+                            $window.location = url.decoded_url;
+                        }
                     }, function(err){
                         console.log(err);
                         $location.url('/error');

@@ -23,6 +23,7 @@ module.exports = function(app, models) {
     }
 
     function createURL(req, res) {
+
         var url = req.body;
         urlModel
             .createURL(url)

@@ -22,6 +22,7 @@ module.exports = function() {
 
     function createURL(url) {
         var deferred = q.defer();
+        console.log(url);
         if(!url.decoded_url){
             deferred.reject("Not valid input");
             return deferred.promise;            
