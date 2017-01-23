@@ -2,7 +2,7 @@
 
 
 
-## [URL Shortener](https://huntiny.heroku.com)
+## [URL Shortener](https://huntiny.herokuapp.com)
 
 This is my URL shortener for the Nintex application process.  For this project, I am using the MEAN Stack to implement the code, Heroku to manage the server, Grunt/Karma to provice testing and Bootstrap is used for the styling.
 
