@@ -1,4 +1,4 @@
 node_modules
 *.idea
-*.txt
+notes.txt
 public/uploads
